@@ -6,15 +6,15 @@
 
 <div align="center">
 
-# 🗂️ Task Manager
+#  Task Manager
 
 ### A modern MERN stack task management application
 
 Organise daily tasks with a clean, responsive interface, secure authentication, and a powerful dashboard.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-success?style=for-the-badge&logo=vercel)](YOUR_FRONTEND_DEPLOYMENT_LINK)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-success?style=for-the-badge&logo=vercel)]([YOUR_FRONTEND_DEPLOYMENT_LINK](https://task-manager-mern-ruddy-eight.vercel.app/))
 [![API Docs](https://img.shields.io/badge/API_Docs-Postman-FF6C37?style=for-the-badge&logo=postman)](https://documenter.getpostman.com/view/42927869/2sBY4JwNPc)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=google-chrome)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=google-chrome)](https://portfolio-ruby-gamma-44.vercel.app/)
 
 <br/>
 
@@ -24,15 +24,14 @@ Organise daily tasks with a clean, responsive interface, secure authentication, 
 [![JWT](https://img.shields.io/badge/JWT-Auth-black?style=flat-square&logo=JSON%20web%20tokens)](https://jwt.io/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/Task-Manager?style=social)](https://github.com/YOUR_USERNAME/Task-Manager/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/Task-Manager?style=social)](https://github.com/YOUR_USERNAME/Task-Manager/network)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 </div>
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [About](#-about)
 - [Features](#-features)
@@ -52,7 +51,7 @@ Organise daily tasks with a clean, responsive interface, secure authentication, 
 
 ---
 
-## 📖 About
+##  About
 
 **Task Manager** is a full-stack **MERN** application (MongoDB, Express, React, Node.js) designed to streamline daily task management. Users can register, log in, and perform full CRUD operations on their personal tasks. The dashboard offers both **Card View** (visual) and **Table View** (structured), along with instant search and pagination.
 
@@ -60,26 +59,26 @@ The project follows industry best practices: MVC architecture on the backend, co
 
 ---
 
-## ✨ Features
+##  Features
 
-**🔐 Authentication**
+** Authentication**
 
 - Register / Login with secure password hashing (bcryptjs)
 - JWT-based authentication with protected routes
 
-**📋 Task Management**
+** Task Management**
 
 - Full CRUD: create, update, delete, view details
 - Set priority (High, Medium, Low) and status (To Do, In Progress, Done)
 - Due date management
 
-**📊 Dashboard**
+** Dashboard**
 
 - Toggle between Card View and Table View
 - Real-time search by task title
 - Pagination for large datasets
 
-**🎨 User Interface**
+** User Interface**
 
 - Modern, responsive design (mobile-first)
 - Reusable components (cards, modals, forms, loaders)
@@ -95,7 +94,7 @@ The project follows industry best practices: MVC architecture on the backend, co
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend**  
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react) ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css) ![React Router](https://img.shields.io/badge/React_Router-6-CA4245?logo=react-router) ![Axios](https://img.shields.io/badge/Axios-1-5A29E4?logo=axios) ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990) ![React Hot Toast](https://img.shields.io/badge/React_Hot_Toast-FF6B6B) ![Lucide](https://img.shields.io/badge/Lucide_React-Icons-black)
@@ -108,7 +107,7 @@ The project follows industry best practices: MVC architecture on the backend, co
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 ```
 
 React Frontend (Vite) → Axios → REST API (Express) → MongoDB
@@ -123,7 +122,7 @@ React Frontend (Vite) → Axios → REST API (Express) → MongoDB
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <details>
 <summary>Click to expand</summary>
@@ -148,7 +147,7 @@ React Frontend (Vite) → Axios → REST API (Express) → MongoDB
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 
@@ -159,10 +158,10 @@ Task-Manager/
 │ │ ├── assets/
 │ │ ├── components/ # Reusable UI components
 │ │ ├── context/ # React contexts (Auth)
-│ │ ├── hooks/ # Custom hooks
-│ │ ├── layouts/ # Page layouts
+│ │ |
+│ │ |
 │ │ ├── pages/ # Route pages
-│ │ ├── routes/ # Route definitions & protected routes
+│ │ |
 │ │ ├── services/ # Axios instances & API calls
 │ │ ├── utils/ # Helpers & constants
 │ │ ├── App.jsx
@@ -232,7 +231,7 @@ npm run dev    # starts on http://localhost:5173
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 ### Backend (`backend/.env`)
 
@@ -275,25 +274,25 @@ npm run dev    # starts on http://localhost:5173
 
 ---
 
-## 📚 API Documentation
+##  API Documentation
 
 Complete API documentation with request/response examples is available on Postman:  
 [![View Docs](https://img.shields.io/badge/View_Documentation-Postman-orange?style=flat-square&logo=postman)](https://documenter.getpostman.com/view/42927869/2sBY4JwNPc)
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 | Service  | URL (placeholder)           |
 | -------- | --------------------------- |
-| Frontend | `https://YOUR_FRONTEND_URL` |
-| Backend  | `https://YOUR_BACKEND_URL`  |
+| Frontend | `https://task-manager-mern-ruddy-eight.vercel.app/` |
+| Backend  | `https://task-manager-mern-6mdr.onrender.com/api`  |
 
 **Recommended platforms:** Vercel (frontend), Render (backend), MongoDB Atlas (database).
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Dark mode & theme customisation
 - [ ] Drag and drop task reordering
@@ -305,7 +304,7 @@ Complete API documentation with request/response examples is available on Postma
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -316,19 +315,19 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Madhur Chaturvedi** – Full Stack MERN Developer
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9cf?style=flat-square&logo=google-chrome)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/madhur2004)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/madhur-chaturvedi-49136a256/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9cf?style=flat-square&logo=google-chrome)](https://portfolio-ruby-gamma-44.vercel.app/)
 
 ---
 
