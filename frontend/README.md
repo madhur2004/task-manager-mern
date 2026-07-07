@@ -1,16 +1,59 @@
-# React + Vite
+#  Task Manager Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive frontend for the **Task Manager** application, built with **React**, **Vite**, and **Tailwind CSS**. It provides a clean user interface for managing tasks with secure authentication and seamless API integration.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*  User Authentication (Login & Register)
+*  Create, Update & Delete Tasks
+*  Task Details Page
+*  Card View & Table View
+*  Search Tasks
+*  Pagination
+*  Fully Responsive Design
+*  Toast Notifications
+*  Protected Routes
 
-## React Compiler
+##  Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React 19
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Axios
+* React Hook Form
+* React Hot Toast
+* Lucide React
 
-## Expanding the ESLint configuration
+##  Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+git clone https://github.com/YOUR_USERNAME/task-manager-frontend.git
+
+cd task-manager-frontend
+
+npm install
+
+npm run dev
+
+
+##  Environment Variables
+
+Create a `.env` file in the project root.
+
+env
+VITE_API_URL=http://localhost:5000/api
+
+
+##  Live Demo
+
+**Frontend:** [https://YOUR_FRONTEND_URL](https://task-manager-mern-ruddy-eight.vercel.app/)
+
+
+##  License
+
+This project is licensed under the MIT License.
+
+---
+
+**Made with ❤️ by Madhur Chaturvedi**
