@@ -1,6 +1,4 @@
-.
 
-```markdown
 <!-- Banner -->
 <p align="center">
   <img src="./screenshots/banner.webp" alt="Task Manager Banner" width="100%">
@@ -340,4 +338,3 @@ Distributed under the MIT License. See `LICENSE` for details.
 Made with ❤️ by Madhur Chaturvedi
 
 </div>
-```
